@@ -43,24 +43,179 @@ This repo contains common parameters of the following vulnerabilities:
 
 ### Top 25 **Cross-Site Scripting (XSS)** Parameters for @trbughunters @openbugbounty
 
-<img src="https://pbs.twimg.com/media/EbhJ6veWkAE-K_y?format=jpg&name=medium">
+```js
+{
+    "flags": "-iE",
+     "patterns": [
+
+        "q=",
+        "s=",
+        "search=",
+        "id=",
+        "lang=",
+        "keyword=",
+        "query=",
+        "page=",
+        "keywords=",
+        "year=",
+        "view=",
+        "email=",
+        "type=",
+        "name=",
+        "p=",
+        "month=",
+        "image=",
+        "list_type=",
+        "url=",
+        "terms=",
+        "categoryid=",
+        "key=",
+        "l=",
+        "begindate=",
+        "enddate="
+]
+}
+```
 
 ### Top 25 **Server-Side Request Forgery (SSRF)** Parameters for @trbughunters
 
-<img src="https://pbs.twimg.com/media/EbzO_2BXgAA5rDb?format=jpg&name=medium">
+```js
+{
+    "flags": "-iE",
+     "patterns": [
+
+        "dest=",
+        "redirect=",
+        "uri=",
+        "path=",
+        "continue=",
+        "url=",
+        "window=",
+        "next=",
+        "data=",
+        "reference=",
+        "site=",
+        "html=",
+        "val=",
+        "validate=",
+        "domain=",
+        "callback=",
+        "return=",
+        "page=",
+        "feed=",
+        "host=",
+        "port=",
+        "to=",
+        "out=",
+        "view=",
+        "dir="
+]
+}
+```
 
 ### Top 25 **Local File Inclusion (LFI)** Parameters for @trbughunters
 
-<img src="https://pbs.twimg.com/media/EcKmRkIXQAIuRNX?format=jpg&name=medium">
+```js
+```
 
 ### Top 25 **SQL Injection** Parameters for @trbughunters
 
-<img src="https://pbs.twimg.com/media/Eb9UUDPU4AAxJR1?format=jpg&name=medium">
+```js
+{
+    "flags": "-iE",
+     "patterns": [
+
+        "id=",
+        "page=",
+        "report=",
+        "dir=",
+        "search=",
+        "category=",
+        "file=",
+        "class",
+        "url=",
+        "news=",
+        "item=",
+        "menu=",
+        "lang=",
+        "name=",
+        "ref=",
+        "title=",
+        "view=",
+        "topic=",
+        "thread=",
+        "type=",
+        "date=",
+        "form=",
+        "main=",
+        "nav=",
+        "region="
+]
+}
+```
 
 ### Top 25 **Remote Code Execution (RCE)** Parameters [GET based] for @trbughunters
 
-<img src="https://pbs.twimg.com/media/Ec6apFcWoAAjGQO?format=png&name=medium">
+```js
+{
+    "flags": "-iE",
+     "patterns": [
+
+        "cmd=",
+        "exec=",
+        "command=",
+        "execute=",
+        "ping=",
+        "query=",
+        "jump=",
+        "code",
+        "reg=",
+        "do=",
+        "func=",
+        "arg=",
+        "option=",
+        "load=",
+        "process=",
+        "step=",
+        "read=",
+        "feature=",
+        "exe=",
+        "module=",
+        "payload=",
+        "run=",
+        "print="
+]
+}
+```
 
 ### Top 25 **Open Redirect** Parameters for @lutfumertceylan
 
-<img src="https://pbs.twimg.com/media/Eao7Nt7WkAEiiVD?format=jpg&name=medium">
+```js
+{
+    "flags": "-iE",
+     "patterns": [
+
+        "next=",
+        "url=",
+        "target=",
+        "rurl=",
+        "dest=",
+        "destination=",
+        "redir=",
+        "redirect_uri",
+        "redirect_url=",
+        "redirect=",
+        "out=",
+        "view=",
+        "to=",
+        "image_url=",
+        "go=",
+        "return=",
+        "returnTo=",
+        "return_to=",
+        "checkout_url=",
+        "continue=",
+        "return_path="
+]
+}
+```
