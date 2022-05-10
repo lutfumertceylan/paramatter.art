@@ -17,12 +17,14 @@ For basic researches, top 25 vulnerable parameters based on frequency of use wit
 
 This repo contains common parameters of the following vulnerabilities:
   
-* Cross-Site Scripting (XSS)
-* Server-Side Request Forgery (SSRF)
-* Local File Inclusion (LFI)
-* SQL Injection (SQLi)
-* Remote Code Execution (RCE) - [for GET and POST methods]
-* Open Redirect
+```
+- Cross-Site Scripting (XSS)
+- Server-Side Request Forgery (SSRF)
+- Local File Inclusion (LFI)
+- SQL Injection (SQLi)
+- Remote Code Execution (RCE) - [for GET and POST methods]
+- Open Redirect
+```
 
 
 
