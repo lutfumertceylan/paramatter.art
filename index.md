@@ -11,16 +11,17 @@ layout: default
   <a href=""><img src="https://img.shields.io/github/v/release/lutfumertceylan/top25-parameter?style=flat"></a>
   <a href=""><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
   <a href="https://twitter.com/intent/follow?screen_name=lutfumertceylan"><img src="https://img.shields.io/twitter/follow/lutfumertceylan?style=flat&logo=twitter"></a>
-  <a href="https://github.com/lutfumertceylan"><img src="https://img.shields.io/github/stars/lutfumertceylan?style=flat&logo=github"></a></a>
+  <a href="https://github.com/lutfumertceylan"><img src="https://img.shields.io/github/stars/lutfumertceylan?style=flat&logo=github"></a>
 </p>
 
 ---
 
-## What is top25-parameter 🧙⚔️
-<p>
+## What is top25-parameter?
+
 For basic researches, top 25 vulnerable parameters based on frequency of use with reference to various articles. These parameters can be used for automation tools or manual recon. Although the prevalence percentages of these parameters cannot be proven precisely, they were prepared by the TR Bug Hunters Community, which I founded, and myself.
 
 This repo contains common parameters of the following vulnerabilities:
+  
 ```
 - Cross-Site Scripting (XSS)
 - Server-Side Request Forgery (SSRF)
@@ -29,7 +30,8 @@ This repo contains common parameters of the following vulnerabilities:
 - Remote Code Execution (RCE) - [for GET and POST methods]
 - Open Redirect
 ```
-</p>
+
+
 
 ## ToC
 - [Cross-Site Scripting](#top-25-cross-site-scripting-xss-parameters-for-trbughunters-openbugbounty)
@@ -79,7 +81,7 @@ This repo contains common parameters of the following vulnerabilities:
 
 ### Top 25 **Server-Side Request Forgery (SSRF)** Parameters for @trbughunters
 
-```js
+```json
 {
     "flags": "-iE",
      "patterns": [
@@ -115,12 +117,12 @@ This repo contains common parameters of the following vulnerabilities:
 
 ### Top 25 **Local File Inclusion (LFI)** Parameters for @trbughunters
 
-```js
+```json
 ```
 
 ### Top 25 **SQL Injection** Parameters for @trbughunters
 
-```js
+```json
 {
     "flags": "-iE",
      "patterns": [
@@ -156,7 +158,7 @@ This repo contains common parameters of the following vulnerabilities:
 
 ### Top 25 **Remote Code Execution (RCE)** Parameters [GET based] for @trbughunters
 
-```js
+```json
 {
     "flags": "-iE",
      "patterns": [
@@ -190,7 +192,7 @@ This repo contains common parameters of the following vulnerabilities:
 
 ### Top 25 **Open Redirect** Parameters for @lutfumertceylan
 
-```js
+```json
 {
     "flags": "-iE",
      "patterns": [
