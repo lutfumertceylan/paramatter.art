@@ -43,7 +43,7 @@ This repo contains common parameters of the following vulnerabilities:
 
 ### Top 25 **Cross-Site Scripting (XSS)** Parameters for @trbughunters @openbugbounty
 
-```js
+```json
 {
     "flags": "-iE",
      "patterns": [
