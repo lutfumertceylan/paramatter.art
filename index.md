@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-
-<h1 align="center">
-  <br>
-  <a href=""><img src="https://raw.githubusercontent.com/lutfumertceylan/top25-parameter/master/top25.jpg" alt=""></a>
-</h1>
 <h4 align="center">For basic researches, top 25 vulnerability parameters that can be used in automation tools or manual recon</h4>
 <p align="center">
   <a href=""><img src="https://img.shields.io/github/v/release/lutfumertceylan/top25-parameter?style=flat"></a>
