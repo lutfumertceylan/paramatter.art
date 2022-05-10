@@ -2,122 +2,65 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<h1 align="center">
+  <br>
+  <a href=""><img src="https://raw.githubusercontent.com/lutfumertceylan/top25-parameter/master/top25.jpg" alt=""></a>
+</h1>
+<h4 align="center">For basic researches, top 25 vulnerability parameters that can be used in automation tools or manual recon</h4>
+<p align="center">
+  <a href=""><img src="https://img.shields.io/github/v/release/lutfumertceylan/top25-parameter?style=flat"></a>
+  <a href=""><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+  <a href="https://twitter.com/intent/follow?screen_name=lutfumertceylan"><img src="https://img.shields.io/twitter/follow/lutfumertceylan?style=flat&logo=twitter"></a>
+  <a href="https://github.com/lutfumertceylan"><img src="https://img.shields.io/github/stars/lutfumertceylan?style=flat&logo=github"></a></a>
+</p>
 
-[Link to another page](./another-page.html).
+---
 
-There should be whitespace between paragraphs.
+## What is top25-parameter 🧙⚔️
+<p>
+For basic researches, top 25 vulnerable parameters based on frequency of use with reference to various articles. These parameters can be used for automation tools or manual recon. Although the prevalence percentages of these parameters cannot be proven precisely, they were prepared by the TR Bug Hunters Community, which I founded, and myself.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+This repo contains common parameters of the following vulnerabilities:
 ```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+- Cross-Site Scripting (XSS)
+- Server-Side Request Forgery (SSRF)
+- Local File Inclusion (LFI)
+- SQL Injection (SQLi)
+- Remote Code Execution (RCE) - [for GET and POST methods]
+- Open Redirect
 ```
+</p>
 
-#### Header 4
+## ToC
+- [Cross-Site Scripting](#top-25-cross-site-scripting-xss-parameters-for-trbughunters-openbugbounty)
+- [Server-Side Request Forgery](#top-25-server-side-request-forgery-ssrf-parameters-for-trbughunters)
+- [Local File Inclusion](#top-25-local-file-inclusion-lfi-parameters-for-trbughunters)
+- [SQL Injection](#top-25-sql-injection-parameters-for-trbughunters)
+- [Remote Code Execution](#top-25-remote-code-execution-rce-parameters-get-based-for-trbughunters)
+- [Open Redirect](#top-25-open-redirect-parameters-for-lutfumertceylan)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+---
 
-##### Header 5
+### Top 25 **Cross-Site Scripting (XSS)** Parameters for @trbughunters @openbugbounty
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+<img src="https://pbs.twimg.com/media/EbhJ6veWkAE-K_y?format=jpg&name=medium">
 
-###### Header 6
+### Top 25 **Server-Side Request Forgery (SSRF)** Parameters for @trbughunters
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+<img src="https://pbs.twimg.com/media/EbzO_2BXgAA5rDb?format=jpg&name=medium">
 
-### There's a horizontal rule below this.
+### Top 25 **Local File Inclusion (LFI)** Parameters for @trbughunters
 
-* * *
+<img src="https://pbs.twimg.com/media/EcKmRkIXQAIuRNX?format=jpg&name=medium">
 
-### Here is an unordered list:
+### Top 25 **SQL Injection** Parameters for @trbughunters
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+<img src="https://pbs.twimg.com/media/Eb9UUDPU4AAxJR1?format=jpg&name=medium">
 
-### And an ordered list:
+### Top 25 **Remote Code Execution (RCE)** Parameters [GET based] for @trbughunters
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+<img src="https://pbs.twimg.com/media/Ec6apFcWoAAjGQO?format=png&name=medium">
 
-### And a nested list:
+### Top 25 **Open Redirect** Parameters for @lutfumertceylan
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+<img src="https://pbs.twimg.com/media/Eao7Nt7WkAEiiVD?format=jpg&name=medium">
