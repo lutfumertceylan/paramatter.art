@@ -1,5 +1,9 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
+title: Research analysis of top25-parameter
+description: For basic researches, top 25 vulnerability parameters that can be used in automation tools or manual recon. 🛡️⚔️🧙
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
+github:
+  zip_url: https://github.com/lutfumertceylan/top25-parameter/zipball/master
+  tar_url: https://github.com/lutfumertceylan/top25-parameter/tarball/master
+  repository_url: https://github.com/lutfumertceylan/top25-parameter/
