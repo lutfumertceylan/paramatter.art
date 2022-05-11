@@ -1,6 +1,5 @@
 ---
 layout: default
-header_extra: <meta property="og:image" content="https://repository-images.githubusercontent.com/490141747/ba1fc722-149c-43a5-b0b5-ff37ea6358d3" />
 ---
 <h4 align="center">For basic researches, top 25 vulnerability parameters that can be used in automation tools or manual recon</h4>
 
