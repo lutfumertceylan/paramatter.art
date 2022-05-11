@@ -2,12 +2,6 @@
 layout: default
 ---
 <h4 align="center">For basic researches, top 25 vulnerability parameters that can be used in automation tools or manual recon</h4>
-<p align="center">
-  <a href=""><img src="https://img.shields.io/github/v/release/lutfumertceylan/top25-parameter?style=flat"></a>
-  <a href=""><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-  <a href="https://twitter.com/intent/follow?screen_name=lutfumertceylan"><img src="https://img.shields.io/twitter/follow/lutfumertceylan?style=flat&logo=twitter"></a>
-  <a href="https://github.com/lutfumertceylan"><img src="https://img.shields.io/github/stars/lutfumertceylan?style=flat&logo=github"></a>
-</p>
 
 ---
 
