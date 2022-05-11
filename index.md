@@ -113,6 +113,39 @@ This repo contains common parameters of the following vulnerabilities:
 ### Top 25 **Local File Inclusion (LFI)** Parameters for @trbughunters
 
 ```json
+
+{
+    "flags": "-iE",
+     "patterns": [
+
+        "cat=",
+        "dir=",
+        "action="
+        "board=",
+        "date=",
+        "detail=",
+        "file=",
+        "download=",
+        "path",
+        "folder=",
+        "prefix=",
+        "include=",
+        "page=",
+        "inc=",
+        "locate=",
+        "show=",
+        "doc=",
+        "site=",
+        "type=",
+        "view=",
+        "content=",
+        "document=",
+        "layout=",
+        "mod=",
+        "conf="
+]
+}
+
 ```
 
 ### Top 25 **SQL Injection** Parameters for @trbughunters
