@@ -10,6 +10,12 @@
 {% seo %}
     {% include head-custom.html %}
   </head>
+  
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    {%if page.header_extra %}{{ page.header_extra }}{% else %}{% endif %}
+  </head>
 
   <body>
 
